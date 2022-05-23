@@ -625,7 +625,7 @@
 .price {
    width: 380px;
    height: 80px;
-   margin: 82px 0 0 60px;
+   margin: 100px 0 0 50px;
 }
 
 .price span {
@@ -642,7 +642,7 @@
 .specification {
    width: 700px;
    height: 55px;
-   margin: -120px 0 0 450px;
+   margin: -90px 0 0 450px;
    display: flex;
 }
 
@@ -673,7 +673,7 @@
 }
 
 .buttons {
-   margin: 60px 0 0 0;
+   margin: 60px auto;
 }
 
 .nubm_1 {
@@ -757,7 +757,7 @@ color: black;
 }
 
 .buttons_dsk{
-   margin: 70px 0 0 90px;
+   margin: 70px 0 0 190px;
 }
 
 
@@ -913,10 +913,7 @@ color: black;
       .btn_mob{
    
          display: block;
-         margin: 0 auto;
-        width: 387px;
-        height: 100px;
-        background-color: red;
+   
       }
 .credit{
    margin: 0 auto;
