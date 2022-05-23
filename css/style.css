@@ -805,7 +805,7 @@ color: black;
    }
 
    .red_line {
-      margin: 40px 0 0 0;
+      margin: 20px 0 0 0;
    }
 
    .complictation__container {
@@ -913,19 +913,29 @@ color: black;
       .btn_mob{
    
          display: block;
-         margin: 30px 0 0 70px;
-      
-      }
-      .credit{
          margin: 0 auto;
+        width: 387px;
+        height: 100px;
+        background-color: red;
       }
+.credit{
+   margin: 0 auto;
+   align-items: center;
+   justify-content: center;
+}
+
+     
 .form_mb {
    display: block;
    width: 360px;
    height: 366px;
    background-color: white;
-   align-items: center;
-   margin: 0 0 0 70px;
+   
+   
+}
+
+.standart-form{
+   margin: 0 auto;
 }
 
 .form_mb img{
