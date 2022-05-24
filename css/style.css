@@ -397,7 +397,7 @@
 
 .standart-input:focus {
    outline: none;
-   border-color: var(--black);
+   border-color: black;
 }
 
 .standart-input+.standart-input {
@@ -760,7 +760,37 @@ color: black;
    margin: 70px 0 0 190px;
 }
 
+.btn__mobile {
+display: none;
+}
 
+.inform_dsk_mob{
+   width: 360px;
+   height: 50px;
+   background-color: black;
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+
+   margin: 30px auto;
+}
+
+.inform_dsk_mob button{
+   margin: 0 auto;
+}
+
+.inform_dsk_mob img{
+   margin: 10px 0 0 0;
+}
+
+.inform{
+   
+   margin: 0 auto;
+}
 
 @media (max-width: 1600px) {
    .car__cards__container {
@@ -992,7 +1022,15 @@ color: black;
       line-height: 20px;
    }
 
-
+.btn__mobile {
+   display: block;
+   width: 156px;
+   height: 28px;
+   background-color: black;
+   color: white;
+   font-family: 'Open Sans';
+   margin: 10px 0 0 25px;
+}
    .banner {
       background-position: 65%;
    }
