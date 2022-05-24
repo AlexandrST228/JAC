@@ -713,6 +713,7 @@
 .maps_dsk {
    width: 100%;
    height: 600px;
+   margin-top: 250px;
    background-image: url(../IMG/map.png);
 }
 
@@ -791,6 +792,9 @@ display: none;
    
    margin: 0 auto;
 }
+
+
+
 
 @media (max-width: 1600px) {
    .car__cards__container {
