@@ -52,8 +52,6 @@
 
 }
 
-.city {}
-
 .number {
    display: flex;
 
@@ -239,13 +237,13 @@
 .buttons {
    width: 300px;
    height: 190px;
-   margin: 30px auto;
+   margin: 0px auto;
 }
 
 .button__1 {
    width: 300px;
    height: 50px;
-   margin: 10px 0 0 0;
+   margin: -20px 0 0 0;
    background-color: #CC000D;
    ;
 }
@@ -262,11 +260,13 @@
 
 .btn_2 {
    background-color: black;
+   margin: 10px 0 0 0;
 }
 
 .btn_3 {
    border: 3px solid #000000;
    background-color: #F2F9FB;
+   margin-top: 10px;
 }
 
 .btn_3 p {
@@ -301,7 +301,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 700px;
+   width: 800px;
 
 }
 
@@ -313,6 +313,10 @@
    line-height: 20px;
    padding: 0 10px 0 0px;
    color: #FFFFFF;
+}
+
+.vector_1:nth-child(2) p {
+padding: 0 0 0 20px;
 }
 
 .man__car {
@@ -759,6 +763,11 @@ color: black;
 
 .buttons_dsk{
    margin: 70px 0 0 190px;
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
 }
 
 .btn__mobile {
@@ -776,20 +785,26 @@ display: none;
       line-height: 20px;
       text-align: center;
       color: #FFFFFF;
-
+ustify-content: center;
+   align-items: center;
    margin: 30px auto;
 }
 
-.inform_dsk_mob button{
-   margin: 0 auto;
-}
 
 .inform_dsk_mob img{
    margin: 10px 0 0 0;
 }
 
 .inform{
-   
+   width: 100%;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+}
+
+.inform_container{
+   width: 360px;
+   height: 50px;
    margin: 0 auto;
 }
 
@@ -961,8 +976,14 @@ display: none;
    width: 360px;
    height: 366px;
    background-color: white;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
    
-   
+}
+
+.stn_in_mb{
+   margin: 0 auto;
 }
 
 .standart-form{
@@ -970,7 +991,7 @@ display: none;
 }
 
 .form_mb img{
-   margin: 0 0 0 70px;
+   margin: 0 0 0 0px;
 }
 
 .form_mb label {
@@ -984,6 +1005,11 @@ display: none;
 .form_dsk_mb{
    display: none;
 }
+
+footer{
+   margin: 1800px 0 0 0;
+}
+
 }
 
 @media (max-width: 1200px) {
