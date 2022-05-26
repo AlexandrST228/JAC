@@ -5,6 +5,19 @@
 .header {
    width: 100%;
    height: 100px;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+body{
+   overflow-x: hidden;
+}
+
+header{
+   align-items: center;
+   justify-content: space-between;
+   display: inline;
 }
 
 .container {
@@ -14,6 +27,7 @@
    align-items: center;
    justify-content: space-between;
 
+
 }
 
 .logo {
@@ -22,6 +36,21 @@
 
 
 }
+
+.btn__dsk{
+   width: 280px;
+   height: 50px;
+   background-color: #000000;
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      margin: 100px 0 0 0;
+}
+
 
 .logo h1 {
    font-family: 'Open Sans';
@@ -708,7 +737,7 @@ padding: 0 0 0 20px;
 }
 
 .red_line {
-   max-width: 1437px;
+   max-width: 1435px;
    height: 3px;
    background-color: red;
    margin-top: 90px;
@@ -717,7 +746,7 @@ padding: 0 0 0 20px;
 .maps_dsk {
    width: 100%;
    height: 600px;
-   margin-top: 250px;
+   margin: -50px 0 0 0;
    background-image: url(../IMG/map.png);
 }
 
@@ -727,7 +756,19 @@ padding: 0 0 0 20px;
    height: 366px;
    background-color:  white;
    align-items: center;
+   position: absolute;
+      top: 4424px;
+      background: #FFFFFF;
+      box-shadow: 4px 4px 39px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
    
+}
+
+.form_dsk_mb img{
+   margin: 20px 0 0 0;
+}
+.sti_in_dsk{
+   margin: 30px 0 0 0;
 }
 
 .form_dsk_mb label{
@@ -785,11 +826,14 @@ display: none;
       line-height: 20px;
       text-align: center;
       color: #FFFFFF;
-ustify-content: center;
    align-items: center;
-   margin: 30px auto;
+   margin: 20px 0 0 0;
 }
 
+.have__car{
+   background: #F2F9FB;
+   height: 1500px;
+}
 
 .inform_dsk_mob img{
    margin: 10px 0 0 0;
@@ -808,6 +852,11 @@ ustify-content: center;
    margin: 0 auto;
 }
 
+.container_map{
+   max-width: 1435px;
+   margin: 0 auto;
+}
+
 
 
 
@@ -823,7 +872,19 @@ ustify-content: center;
    }
 }
 
+.maps_dsk{
+   background-position: 80%;
+}
+
 @media (max-width: 1440px) {
+
+   .btn__dsk{
+      display: none;
+   }
+   .have__car {
+         background: #F2F9FB;
+         height: 3000px;
+      }
    .cars_1 {
       display: block;
       margin: 0 auto;
@@ -868,13 +929,21 @@ ustify-content: center;
    }
 
    .vector_12 {
-      max-width: 1200px;
-      display: block;
+      max-width: 700px;
+      margin: 0 0 0 -30px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      
    }
 
    .vector_1 {
-      margin: 40px auto;
+margin: 30px 0 0 -10px;
 
+   }
+
+   .vector_12 p{
+   margin: 10px 0 0 40px; 
    }
 
    .cars_1 h1 {
@@ -888,6 +957,9 @@ ustify-content: center;
    .specificat {
       display: none;
    }
+      .container_map {
+         max-width: 435px;
+      }
 
    .price {
       display: none;
@@ -979,19 +1051,25 @@ ustify-content: center;
    align-items: center;
    text-align: center;
    justify-content: center;
-   
+   box-shadow: 2.8306px 2.8306px 27.5984px rgba(0, 0, 0, 0.15);
+   border-radius: 7.0765px;
+   margin-top: 40px;
 }
 
 .stn_in_mb{
-   margin: 0 auto;
+   margin: 20px auto;
 }
 
 .standart-form{
-   margin: 0 auto;
+   margin: 20px auto;
 }
 
 .form_mb img{
-   margin: 0 0 0 0px;
+   margin: 10px 0 0 0px;
+}
+
+form{
+   margin-top: 90px;
 }
 
 .form_mb label {
@@ -1007,7 +1085,7 @@ ustify-content: center;
 }
 
 footer{
-   margin: 1800px 0 0 0;
+   margin: 50px 0 0 0;
 }
 
 }
