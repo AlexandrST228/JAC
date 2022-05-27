@@ -900,7 +900,18 @@ font-family: 'Open Sans';
    visibility: hidden;
 }
 .div_ft{
-   margin: 50px 0 0 0;
+   margin: 200px 0 0 0;
+}
+
+.text_block {
+   display: none;
+   width: 95%;
+   height: 200px;
+   font-size: 20px;
+   color: black;
+   text-align: center;
+   margin: 0 auto;
+   padding: 30px 0 0 0;
 }
 
 
