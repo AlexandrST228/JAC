@@ -1041,7 +1041,7 @@ html{
    
 }
 
-.standart-form{
+.form__dsk{
    display: none;
 }
 
@@ -1056,7 +1056,7 @@ html{
       font-size: 12px;
       line-height: 9px;
       color: #828282;
-   padding: 5px 0 0 0;
+      padding: 5px 0 0 0;
 }
 
 .btn_man_mobile{
