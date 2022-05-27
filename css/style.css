@@ -933,8 +933,8 @@ position: relative;
 
 .popup__close{
 position: absolute;
-top: 0;
-left: 0;
+top: -100px;
+left: 850px;
    
    font-size: 20px;
    width: 45px;
@@ -999,6 +999,10 @@ font-family: 'Montserrat';
 
 }
 
+.new__car h1{
+   font-size: 25px;
+}
+
 .popup {
    position: fixed;
    width: 100%;
@@ -1027,8 +1031,8 @@ font-family: 'Montserrat';
 }
 
 .popup__close{
-  top: 0;
-  left: 0;
+  top: -40px;
+  left: 300px;
 }
 
 
@@ -1092,7 +1096,7 @@ font-family: 'Montserrat';
    }
 
    .vector_1 {
-margin: 0px 0 0 -10px;
+margin: 0px 0 0 -30px;
 
    }
 
