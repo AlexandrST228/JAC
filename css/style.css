@@ -903,6 +903,10 @@ font-family: 'Open Sans';
    margin: 200px 0 0 0;
 }
 
+.form__mobile{
+   display: none;
+}
+
 .text_block {
    display: none;
    width: 95%;
@@ -1030,7 +1034,48 @@ html{
 }
 
 
+.form__mobile{
+   display: block;
+   margin: 85% 0 0 0;
+   width: 310px;
+   
+}
 
+.standart-form{
+   display: none;
+}
+
+.standart-input_mobile{
+   width: 139px;
+   height: 23px;
+   background: #D0D0D0;
+   margin: 5px 0 0 0;
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 9px;
+      color: #828282;
+}
+
+.btn_man_mobile{
+   width: 183px;
+   height: 51px;
+   background: #CC000D;
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      color: #FFFFFF;
+      margin: 5px 0 0 -65px;
+}
+
+.form__moble__con{
+   display: flex;
+   align-items: center;
+}
 
 .popup__tittle{
    font-family: 'Montserrat';
