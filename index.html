@@ -248,15 +248,16 @@
             <form action="" method="post" class="standart-form">
                <input class="standart-input" type="text" name="name" placeholder="Ваше имя">
                <input class="standart-input" type="tel" name="phone" placeholder="Ваш телефон" required>
-               <button class="btn" type="submit">Оформить кредит</button>
+               <button class="btn btn_man_mb" type="submit">Оформить кредит</button>
                <div class="agreement">
                   <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
-                  <label class="agreement__label">Согласие на&nbsp;обработку <a
+                  <label class="agreement__label agr_mb">Согласие на&nbsp;обработку <a
                         class="personal-data-ckeck__link">персональных
                         данных</a>
                   </label>
                </div>
             </form>
+            
          </div>
       </div>
 
@@ -595,11 +596,38 @@
 
    <div class="inform">
       <div class="inform_container">
-         <button class="inform_dsk_mob">Подробная информация <img src="./IMG/svg/down.svg" alt=""></button>
+         <a href="#popup">
+         <button  class="pop-up-button">Подробная информация <img src="./IMG/svg/down.svg" alt=""></button>
+         </a>
       </div>
-      
+<div class="div_ft">
+
+</div>
    </div>
+<div id="popup" class="popup">
+   <a href="#inform" class="popup__area"></a>
+   <div class="popup__body">
+      <div class="popup__content">
+         <a href="#inform" class="popup__close"><img src="./IMG/krest.png" alt=""></a>
+         <div class="popup__tittle">Получите <br>
+         персональное <br> предложение</div>
+         <div class="popup__text">
+            <form action="" method="post" class="standart-form">
+               <input class="standart-input" type="text" name="name" placeholder="Ваше имя">
+               <input class="standart-input" type="tel" name="phone" placeholder="Ваш телефон" required>
+               <button class="btn" type="submit">Оформить кредит</button>
+               <div class="agreement">
+                  <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
+                  <label class="agreement__label">Согласие на&nbsp;обработку <a class="personal-data-ckeck__link">персональных
+                        данных</a>
+                  </label>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
    
 </footer>
-
+<script src="./js/script.js"></script>
 </html>

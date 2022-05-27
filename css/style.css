@@ -354,7 +354,8 @@ padding: 0 0 0 20px;
 .man__car {
    width: 100%;
    height: 702px;
-   background-image: url(../IMG/man_car.png), url(../IMG/shadow.png);
+   background-image: url(../IMG/shadow.png), url(../IMG/man_car.png);
+   background-repeat: no-repeat;
 
 }
 
@@ -373,6 +374,7 @@ padding: 0 0 0 20px;
    line-height: 46px;
    color: #FFFFFF;
    padding: 114px 0 0 0;
+   width: 500px;
 }
 
 .standart-form {
@@ -749,8 +751,9 @@ padding: 0 0 0 20px;
 .maps_dsk {
    width: 100%;
    height: 600px;
-   margin: -50px 0 0 0;
+   margin: -50px 0 20px 0;
    background-image: url(../IMG/map.png);
+   overflow: hidden;
 }
 
 
@@ -818,7 +821,7 @@ color: black;
 display: none;
 }
 
-.inform_dsk_mob{
+.pop-up-button{
    width: 360px;
    height: 50px;
    background-color: black;
@@ -830,7 +833,7 @@ display: none;
       text-align: center;
       color: #FFFFFF;
    align-items: center;
-   margin: 20px 0 0 0;
+   margin: 10px 0 0px 0;
 }
 
 .have__car{
@@ -838,7 +841,7 @@ display: none;
    height: 1500px;
 }
 
-.inform_dsk_mob img{
+.pop-up-button img{
    margin: 10px 0 0 0;
 }
 
@@ -860,8 +863,113 @@ display: none;
    margin: 0 auto;
 }
 
+.credit{
+font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   color: #000000;
+}
+
+.credit_2{
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+}
+
+.popup{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   top: 0;
+   left: 0;
+   min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   opacity: 0;
+   visibility: hidden;
+}
+.div_ft{
+   margin: 50px 0 0 0;
+}
 
 
+.popup__area{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+
+.popup:target{
+   opacity: 1;
+   visibility: visible;
+}
+
+.popup__body{
+background-image: url(../IMG/popup__banner.png);
+background-repeat: no-repeat;
+width: 880px;
+height: 491px;
+justify-content: left;
+align-items: center;
+display: flex;
+padding: 30px 52px;
+}
+
+.popup__content{
+position: relative;
+
+}
+
+.popup__close{
+position: absolute;
+left: 850px;
+bottom: 400px;
+   
+   font-size: 20px;
+   width: 45px;
+   height: 45px;
+   background-color: black;
+   color: white;
+   align-items: center;
+   text-align: center;
+   border-radius: 50%;
+}
+
+.popup__close a{
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   
+}
+
+.popup__tittle{
+font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 46px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.popup__text{
+
+}
+
+.standart-form__mb{
+   display: none;
+}
 
 @media (max-width: 1600px) {
    .car__cards__container {
@@ -880,6 +988,35 @@ display: none;
 }
 
 @media (max-width: 1440px) {
+
+.popup__body{
+   width: 309px;
+   height: 330px;
+   background-image: url(../IMG/Rectangle\ 112.png), url(../IMG/popup__banner__mb.png);
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+
+}
+
+
+
+
+.popup__tittle{
+   font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 19.93px;
+      line-height: 21px;
+      text-align: center;
+      color: #444444;
+      padding: 20px 0 0 0;
+}
+
+.popup__close{
+  margin: 0px 0 -70px -530px;
+}
+
 
    .btn__dsk{
       display: none;
@@ -932,8 +1069,8 @@ display: none;
    }
 
    .vector_12 {
-      max-width: 700px;
-      margin: 0 0 0 -30px;
+      max-width: 500px;
+      margin: 10px 0 0 50px;
       align-items: center;
       text-align: center;
       justify-content: center;
@@ -941,7 +1078,7 @@ display: none;
    }
 
    .vector_1 {
-margin: 30px 0 0 -10px;
+margin: 0px 0 0 -10px;
 
    }
 
