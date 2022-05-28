@@ -1045,6 +1045,10 @@ html{
    display: none;
 }
 
+.man__car{
+   background-position: 65%;
+}
+
 .standart-input_mobile{
    width: 139px;
    height: 23px;
