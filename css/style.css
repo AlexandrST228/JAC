@@ -221,7 +221,7 @@ footer{
 .car__image {
    width: 390px;
    height: 208px;
-   margin: 21px 0 0 0;
+   margin: 21px 0 0 -30px;
 }
 
 .white__line {
@@ -777,6 +777,43 @@ padding: 0 0 0 20px;
 }
 .sti_in_dsk{
    margin: 30px 0 0 0;
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height, or 125% */
+   
+      text-align: center;
+   
+      /* Gray 3 */
+   
+      color: #828282;
+}
+
+.sti_in_dsk_btn{
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height, or 125% */
+   
+      text-align: center;
+   
+      color: #FFFFFF;
+}
+
+.sti_in_dsk a{
+   font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 25px;
+      /* identical to box height, or 227% */
+   
+   
+      color: #000000;
 }
 
 .form_dsk_mb label{
@@ -900,7 +937,7 @@ font-family: 'Open Sans';
    visibility: hidden;
 }
 .div_ft{
-   margin: 200px 0 0 0;
+   margin: 30px 0 0 0;
 }
 
 .form__mobile{
@@ -1060,7 +1097,7 @@ html{
       font-size: 12px;
       line-height: 9px;
       color: #828282;
-      padding: 5px 0 0 0;
+      padding: 0px 0 0 10px;
 }
 
 .btn_man_mobile{
@@ -1097,6 +1134,7 @@ html{
   top: -40px;
   left: 300px;
 }
+
 
 
    .btn__dsk{
@@ -1284,6 +1322,48 @@ margin: 0px 0 0 -120px;
    margin: 20px auto;
 }
 
+.stn_in_mb {
+   
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   /* identical to box height, or 125% */
+
+   text-align: center;
+
+   /* Gray 3 */
+
+   color: #828282;
+}
+
+.stn_in_mb_btn {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   /* identical to box height, or 125% */
+   margin: 0 auto;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+
+.sti_in_mb a {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 25px;
+   /* identical to box height, or 227% */
+
+
+   color: #000000;
+}
+
 .standart-form{
    margin: 20px auto;
 }
@@ -1453,7 +1533,13 @@ body{
 
 }
 
-@media (max-width: 435px) {}
+@media (max-width: 435px) {
+   .banner {
+         background-image: url(../IMG/main__banner__mbjpg.jpg);
+         background-position: 60%;
+      }
+   
+}
 
 @media (max-width: 375px) {}
 
