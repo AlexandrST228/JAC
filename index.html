@@ -255,9 +255,9 @@
                от 5 900 ₽/мес.</h1>
                <div class="form__dsk">
             <form action="" method="post" class="standart-form">
-               <input class="standart-input" type="text" name="name" placeholder="Ваше имя">
-               <input class="standart-input" type="tel" name="phone" placeholder="Ваш телефон" required>
-               <button class="btn btn_man_mb" type="submit">Оформить кредит</button>
+               <input class="standart-input sti_in_dsk" type="text" name="name" placeholder="Ваше имя">
+               <input class="standart-input sti_in_dsk" type="tel" name="phone" placeholder="Ваш телефон" required>
+               <button class="btn btn_man_mb sti_in_dsk_btn" type="submit">Оформить кредит</button>
                <div class="agreement">
                   <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
                   <label class="agreement__label agr_mb">Согласие на&nbsp;обработку <a
@@ -598,82 +598,93 @@
                   </div>  
       </div>
          
+   <div class="maps_dsk">
+      <div class="container_map">
+         <form action="" method="post" class="standart-form form_dsk_mb">
+            <img src="./IMG/logo 1.png" alt="">
+            <input class="standart-input sti_in_dsk" type="text" name="name" placeholder="Ваше имя">
+            <input class="standart-input sti_in_dsk" type="tel" name="phone" placeholder="Ваш телефон" required>
+            <button class="btn sti_in_dsk_btn" type="submit">Получить предложение</button>
+            <div class="agreement">
+               <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
+               <label class="agreement__label">Согласие на&nbsp;обработку <a class="personal-data-ckeck__link">персональных
+                     данных</a>
+               </label>
+            </div>
+         </form>
    
-               
-</body>
-
-<footer>
-
-<div class="maps_dsk">
-   <div class="container_map">
-   <form action="" method="post" class="standart-form form_dsk_mb">
-      <img src="./IMG/logo 1.png" alt="">
-      <input class="standart-input sti_in_dsk" type="text" name="name" placeholder="Ваше имя">
-      <input class="standart-input sti_in_dsk" type="tel" name="phone" placeholder="Ваш телефон" required>
-      <button class="btn sti_in_dsk_btn" type="submit">Получить предложение</button>
-      <div class="agreement">
-         <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
-         <label class="agreement__label">Согласие на&nbsp;обработку <a class="personal-data-ckeck__link">персональных
-               данных</a>
-         </label>
       </div>
-   </form>
+   </div>
    
+   <form action="" method="post" class="standart-form form_mb">
+      <div class="container_map">
+         <img src="./IMG/logo 1.png" alt="">
+         <input class="standart-input stn_in_mb" type="text" name="name" placeholder="Ваше имя">
+         <input class="standart-input stn_in_mb" type="tel" name="phone" placeholder="Ваш телефон" required>
+         <button class="btn stn_in_mb_btn" type="submit">Получить предложение</button>
+         <div class="agreement">
+            <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
+            <label class="agreement__label">Согласие на&nbsp;обработку <a class="personal-data-ckeck__link">персональных
+                  данных</a>
+            </label>
+         </div>
+   </form>
    </div>
-</div>
-=
-<form action="" method="post" class="standart-form form_mb">
-   <div class="container_map">
-   <img src="./IMG/logo 1.png" alt="">
-   <input class="standart-input stn_in_mb" type="text" name="name" placeholder="Ваше имя">
-   <input class="standart-input stn_in_mb" type="tel" name="phone" placeholder="Ваш телефон" required>
-   <button class="btn stn_in_mb_btn" type="submit">Получить предложение</button>
-   <div class="agreement">
-      <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
-      <label class="agreement__label">Согласие на&nbsp;обработку <a class="personal-data-ckeck__link">персональных
-            данных</a>
-      </label>
-   </div>
-</form>
-</div>
-
+   
    <div class="inform">
       <div class="inform_container">
-         
-         <button  class="pop-up-button" onclick="chpok('text')">Подробная информация <img src="./IMG/svg/down.svg" alt=""></button>
+   
+         <button class="pop-up-button" onclick="chpok('text')">Подробная информация <img src="./IMG/svg/down.svg"
+               alt=""></button>
+
          <div class="text_block" id="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus sunt vel reprehenderit voluptate mollitia pariatur odit explicabo! Nihil amet harum, vitae modi repellendus ratione autem numquam voluptates. Odit, dolore.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus sunt vel reprehenderit voluptate
+            mollitia pariatur odit explicabo! Nihil amet harum, vitae modi repellendus ratione autem numquam voluptates.
+            Odit, dolore.
          </div>
-         
+   
       </div>
+     
+   </div>
+   <div id="popup" class="popup">
+      <a href="#inform" class="popup__area"></a>
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#inform" class="popup__close"><img src="./IMG/krest.png" alt=""></a>
+            <div class="popup__tittle">Получите <br>
+               персональное <br> предложение</div>
+            <div class="popup__text">
+               <form action="" method="post" class="standart-form">
+                  <input class="standart-input" type="text" name="name" placeholder="Ваше имя">
+                  <input class="standart-input" type="tel" name="phone" placeholder="Ваш телефон" required>
+                  <button class="btn" type="submit">Получить предложжение</button>
+                  <div class="agreement">
+                     <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
+                     <label class="agreement__label">Согласие на&nbsp;обработку <a
+                           class="personal-data-ckeck__link">персональных
+                           данных</a>
+                     </label>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+               
+</body>
+               
+
+<footer>
 <div class="div_ft">
 
 </div>
-   </div>
-<div id="popup" class="popup">
-   <a href="#inform" class="popup__area"></a>
-   <div class="popup__body">
-      <div class="popup__content">
-         <a href="#inform" class="popup__close"><img src="./IMG/krest.png" alt=""></a>
-         <div class="popup__tittle">Получите <br>
-         персональное <br> предложение</div>
-         <div class="popup__text">
-            <form action="" method="post" class="standart-form">
-               <input class="standart-input" type="text" name="name" placeholder="Ваше имя">
-               <input class="standart-input" type="tel" name="phone" placeholder="Ваш телефон" required>
-               <button class="btn" type="submit">Оформить кредит</button>
-               <div class="agreement">
-                  <input class="visually-hidden" type="checkbox" required="" checked=""><span class="checkmark"></span>
-                  <label class="agreement__label">Согласие на&nbsp;обработку <a class="personal-data-ckeck__link">персональных
-                        данных</a>
-                  </label>
-               </div>
-            </form>
-         </div>
-      </div>
-   </div>
-</div>
-   
+
 </footer>
-<script src="./js/script.js"></script>
+<script src="./js/script.js"> </script>
+<script src="./js/stock.js"> </script>
+<script src="./js/main.js"> </script>
+<script src="./js/bootstrap.min.js"> </script>
+<script src="./js/jquerymaskedinput.js"> </script>
+<script src="./js/jquery-3.6.0.min.js"> </script>
+
 </html>

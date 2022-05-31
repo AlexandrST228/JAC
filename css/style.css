@@ -175,7 +175,7 @@ footer{
    background-color: #F2F9FB;
    box-shadow: 4px 4px 39px rgba(0, 0, 0, 0.15);
    position: relative;
-   margin: -66px 0 0 0;
+   margin: -66px auto;
 }
 
 .card h1 {
@@ -221,7 +221,7 @@ footer{
 .car__image {
    width: 390px;
    height: 208px;
-   margin: 21px 0 0 -30px;
+   margin: 21px 0 0 0px;
 }
 
 .white__line {
@@ -271,15 +271,15 @@ footer{
 .buttons {
    width: 300px;
    height: 190px;
-   margin: 0px auto;
+   margin: 20px auto;
 }
 
 .button__1 {
    width: 300px;
    height: 50px;
-   margin: -20px 0 0 0;
+   margin: -20px auto;
    background-color: #CC000D;
-   ;
+   
 }
 
 .button__1 p {
@@ -294,7 +294,7 @@ footer{
 
 .btn_2 {
    background-color: black;
-   margin: 10px 0 0 0;
+   margin: 25px 0 0 0;
 }
 
 .btn_3 {
@@ -753,7 +753,7 @@ padding: 0 0 0 20px;
 .maps_dsk {
    width: 100%;
    height: 600px;
-   margin: -50px 0 20px 0;
+   margin: 0px 0 0px 0;
    background-image: url(../IMG/map.png);
    overflow: hidden;
 }
@@ -872,7 +872,7 @@ display: none;
       text-align: center;
       color: #FFFFFF;
    align-items: center;
-   margin: 10px 0 0px 0;
+   margin: 30px 0 0px 0;
 }
 
 .have__car{
@@ -937,7 +937,11 @@ font-family: 'Open Sans';
    visibility: hidden;
 }
 .div_ft{
-   margin: 30px 0 0 0;
+   margin: 50px 0 0 0;
+}
+
+.personal-data-ckeck__link:hover{
+color: gray;
 }
 
 .form__mobile{
@@ -1028,6 +1032,10 @@ font-family: 'Montserrat';
 
 .popup__text{
 
+}
+
+.dropdown__btn:hover{
+   color: white;
 }
 
 .standart-form__mb{
@@ -1132,7 +1140,7 @@ html{
 
 .popup__close{
   top: -40px;
-  left: 300px;
+  left: 290px;
 }
 
 
@@ -1142,7 +1150,7 @@ html{
    }
    .have__car {
          background: #F2F9FB;
-         height: 3000px;
+         height: 3200px;
       }
    .cars_1 {
       display: block;
@@ -1338,6 +1346,10 @@ margin: 0px 0 0 -120px;
    color: #828282;
 }
 
+.buttons{
+   margin: 50px auto;
+}
+
 .stn_in_mb_btn {
    font-family: 'Open Sans';
    font-style: normal;
@@ -1396,6 +1408,7 @@ body{
    overflow-x: hidden;
 }
 
+
 }
 
 @media (max-width: 1200px) {
@@ -1425,6 +1438,11 @@ body{
       display: none;
    }
 
+
+      .car__image {
+   
+         margin: 0px 0 0 -30px;
+      }
 
 
 
@@ -1535,10 +1553,40 @@ body{
 
 @media (max-width: 435px) {
    .banner {
-         background-image: url(../IMG/main__banner__mbjpg.jpg);
+         background-image: url(../IMG/main-banner__mb.png);
          background-position: 60%;
+         height: 440px;
+      }
+
+      .pop-up-button{
+         width: 223px;
+         height: 31px;
+         margin: 0 auto;
+         align-items: center;
+         top: 0;
+         left: 0;
+         font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 12px;
+            /* identical to box height, or 95% */
+         
+            text-align: center;
+         
+            color: #FFFFFF;
+      }
+      .div_ft{
+         margin: -15px 0 0 0;
+      }
+      .pop-up-button img{
+         margin: 5px 0 0 5px;
       }
    
+      .inform_container{
+         width: 233px;
+         margin: 0 auto;
+      }
 }
 
 @media (max-width: 375px) {}
