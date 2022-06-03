@@ -770,7 +770,6 @@ padding: 0 0 0 20px;
    background-color:  white;
    align-items: center;
    position: absolute;
-      top: 4424px;
       background: #FFFFFF;
       box-shadow: 4px 4px 39px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
@@ -1144,6 +1143,14 @@ font-family: 'Open Sans';
    .card {
       margin: 47px auto;
    }
+      .form__dsk {
+         margin: 0 0 0 10px;
+      }
+   
+      .man__car h1 {
+         margin: 0 0 0 15px;
+      }
+
 }
 
 .maps_dsk{
@@ -1504,6 +1511,13 @@ body{
    overflow-x: hidden;
 }
 
+.form__dsk{
+   margin: 0 0 0 10px;
+}
+
+.man__car h1{
+   margin: 0 0 0 255px;
+}
 
 
 }
@@ -1542,9 +1556,10 @@ body{
          padding: 60px 0 0 120px;
          color: #FFFFFF;
          height: 120px;
-         margin: 30px 0 0 0;
+         margin: 20px 0 0 0;
    
       }
+      
    
       .eb_txt {
          background-image: url(../IMG/Group_3.png);
@@ -1561,7 +1576,7 @@ body{
       .eb_txt_3 {
          background-image: url(../IMG/Group_4.png);
          background-repeat: no-repeat;
-         background-position: 10% 70%;
+         background-position: 0% 70%;
          width: 400px;
          text-align: center;
       }
@@ -1571,7 +1586,30 @@ body{
          background-image: url(../IMG/Group_1.png);
          background-repeat: no-repeat;
          background-position: 10% 0;
+         font-size: 15px;
       }
+
+                                     .eb_txt_3 {
+                                        font-family: 'Open Sans';
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 15px;
+                                        padding: 30px 0 0 50px;
+                                        color: #FFFFFF;
+                                        margin: 40px 0 0 0;
+                                     }
+                  
+                                     .eb_txt_4 {
+                                        font-family: 'Open Sans';
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 15px;
+                                        padding: 30px 0 0 40px;
+                                        color: #FFFFFF;
+                                        margin: 55px 0 0 0;
+                                        text-align: center;
+                                        height: 130px;
+                                     }
    
       .car__interier {
          height: 300px;
@@ -1604,6 +1642,13 @@ body{
          margin: 0px 0 0 -30px;
       }
 
+            .form__dsk {
+               margin: 0 0 0 10px;
+            }
+      
+            .man__car h1 {
+               margin: 0 0 0 255px;
+            }
 
 
 }
@@ -1628,7 +1673,13 @@ body{
    .banner {
       background-position: 65%;
    }
+.form__dsk {
+   margin: 0 0 0 10px;
+}
 
+.man__car h1 {
+   margin: 0 0 0 245px;
+}
 
 }
 
@@ -1718,14 +1769,56 @@ width: 280px;
       text-align: center;
       align-items: center;
    }
+      .form__dsk {
+         margin: 0 0 0 10px;
+      }
+   
+      .man__car h1 {
+         margin: 0 0 0 25px;
+      }
 
 }
 
 @media (max-width: 570px){
-.vector_2{
-   display: none;
-}
 
+   
+
+         .eb_txt {
+               background-image: url(../IMG/Group_3_mb.png);
+               background-repeat: no-repeat;
+               background-position: 7% 35%;
+            }
+         
+            .eb_txt_2 {
+               background-image: url(../IMG/Group_2mb.png);
+               background-repeat: no-repeat;
+               background-position: 10% 45%;
+            }
+         
+            .eb_txt_3 {
+               background-image: url(../IMG/Group_4mb.png);
+               background-repeat: no-repeat;
+               background-position: 25% 80%;
+               width: 400px;
+               text-align: center;
+               padding: 0 30px 0 100px;
+            }
+
+            .vector_2{
+               margin: 0 0 0 25px;
+            
+            }
+         
+         
+            .eb_txt_4 {
+               background-image: url(../IMG/Group_1mb.png);
+               background-repeat: no-repeat;
+               background-position: 25% 25%;
+            }
+
+         .car__interier{
+            height: 300px;
+         }
 
             .Imb__block_mb {
                display: block;
@@ -1738,13 +1831,95 @@ width: 280px;
       
             }
 
+                                .vector_2 p {
+                                   font-family: 'Open Sans';
+                                   font-style: normal;
+                                   font-weight: 700;
+                                   font-size: 15px;
+                                   padding: 30px 0 0 50px;
+                                   color: #FFFFFF;
+                                   height: 120px;
+                                   margin: 30px 0 0 0;
+               
+                                }
+
+                                             
+
             .Imb__block_mb img{
                margin: 30px 0 0 0;
             }
 
             .car__interier{
-               height: 200px;
+               height: 320px;
             }
+                        .form__dsk {
+                           margin: 0 0 0 10px;
+                        }
+            
+                        .man__car h1 {
+                           margin: 0 0 0 15px;
+                        }
+
+             .eb_txt_3{
+                        font-family: 'Open Sans';
+                           font-style: normal;
+                           font-weight: 700;
+                           font-size: 15px;
+                           padding: 30px 0 0 50px;
+                           color: #FFFFFF;
+                           margin: 30px 0 0 0;
+             }
+
+                                           .eb_txt_4 {
+                                              font-family: 'Open Sans';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 15px;
+                                              padding: 30px 0 0 40px;
+                                              color: #FFFFFF;
+                                              margin: 80px 0 0 0;
+                                              text-align: center;
+                                           }
+}
+
+@media(max-width: 475px){
+               .eb_txt_3 {
+                     font-family: 'Open Sans';
+                     font-style: normal;
+                     font-weight: 700;
+                     font-size: 15px;
+                     padding: 30px 60px 0 0px;
+                     color: #FFFFFF;
+                     margin: 30px 0 0 0;
+                  }
+               
+                  .eb_txt_4 {
+                     font-family: 'Open Sans';
+                     font-style: normal;
+                     font-weight: 700;
+                     font-size: 15px;
+                     padding: 30px 60px 0 0px;
+                     color: #FFFFFF;
+                     margin: 80px 0 0 0;
+                     text-align: center;
+                  }
+                                                            .eb_txt_3 {
+                                                               background-image: url(../IMG/Group_4mb.png);
+                                                               background-repeat: no-repeat;
+                                                               background-position: 5% 65%;
+                                                             
+                                                            }
+                              
+                                  
+                              
+                              
+                                                            .eb_txt_4 {
+                                                               background-image: url(../IMG/Group_1mb.png);
+                                                               background-repeat: no-repeat;
+                                                               background-position: 10% 30%;
+                                                            }
+                                                            
+                                                 
 }
 
 @media (max-width: 435px) {
@@ -1753,6 +1928,26 @@ width: 280px;
          background-position: 60%;
          height: 440px;
       }
+
+      .vector_13 p{
+         font-size: 14px;
+      }
+           
+                                            .eb_txt_4 {
+                                               font-family: 'Open Sans';
+                                               font-style: normal;
+                                               font-weight: 700;
+                                               font-size: 15px;
+                                               padding: 30px 90px 0 0px;
+                                               color: #FFFFFF;
+                                               margin: 80px 0 0 0;
+                                               text-align: center;
+                                            }
+
+                  .vector_2 {
+                     margin: 0px 0 0 5px;
+         
+                  }
 
       .pop-up-button{
          width: 223px;
@@ -1784,13 +1979,12 @@ width: 280px;
          margin: 0 auto;
       }
       .card{
-         width: 266px;
+         width: 290px;
       }
       .white__line{
-         width: 266px;
+         width: 290px;
       
       }
-
 
 
       .white__line p {
@@ -1807,13 +2001,13 @@ width: 280px;
       }
 
       .buttons{
-         width: 204px;
+      width: 260px;
          margin: 60px auto;
       }
 
 
       .button__1{
-         width: 204px;
+         width: 260px;
          
       }
 
@@ -1920,8 +2114,141 @@ width: 280px;
          align-items: center;
          justify-content: center;
       }
+            .form__dsk {
+               margin: 0 0 0 10px;
+            }
       
+            .man__car h1 {
+               margin: 0 0 0 15px;
+            }
+                        .img_mobile {
+                           display: block;
+                           margin: 0 0 0 15%;
+                        }
+                                                .img_desk {
+                                                   display: none;
+                                                }
+      .maps_dsk{
+         margin: -420px 0 0 0;
+      }
+            .maps_dsk {
+               background-image: url(../IMG/map__mb.png);
+               background-repeat: no-repeat;
+              background-position: 50%;
+              background-size: 100%;
+              
+               
+            }
+
+            .container_map{
+               margin: -140px auto;
+            }
+                          .pop-up-button {
+                             margin: 130px 0 0 0;
+                          }
+                                                       .div_ft {
+                                                          margin: 90px 0 0 0;
+   
+   
+                                                         }
+            .form__dsk {
+               display: none;
+            }
+      
+            .man__car {
+             
+               height: 280px;
+               width: 100%;
+            }
+      
+            .form__mobile {
+               display: block;
+               margin: 100px 0 0 0;
+               align-items: center;
+               justify-content: space-between;
+              
+            }
+
+            .man__car h1 {
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 600;
+               font-size: 18.1347px;
+               line-height: 21px;
+               color: #FFFFFF;
+               padding: 20px 0 0 20px;
+               margin: 0 0 0 0;
+               width: 320px;
+            }
+               .vector_13 p {
+         font-size: 10px;
+         
+      }
+
+      .eb_txt_3 {
+         background-image: url(../IMG/Group_4mb.png);
+         background-repeat: no-repeat;
+         background-position: 15% 85%;
+   
+      }
+   
+   
+   .vector_2 p{
+   				margin: 30px 0 0 0;
+   				height: 55px;
+   }
+   .eb_txt{
+   				margin: 30px 0 0 10px;
+   				background-position: 10% 99%;
+   				
+   }
+   .eb_txt_2{
+   				background-position: 10% 99%;
+   }
+ .vector_13{
+ 				height: 220px;
+ 				margin: 0 0 0 30px;
+ }
+  
+      .eb_txt_4 {
+         background-image: url(../IMG/Group_1mb.png);
+         background-repeat: no-repeat;
+         background-position: 15% 99%;
+         height: 100px;
+      }
+      
+      .eb_txt_2{
+      				padding: -635px 0 0 0;
+      				height: 50px;
+      }
+
+      .eb_txt_4{
+         margin: 35px 0 0 0;
+         height: 50px;
+      }
+.eb_txt_4 p{
+				padding: 30px 0 0 0;
 }
+
+.standart-input_mobile{
+				height: 32px;
+				width: 140px;
+				margin: 5px 0 0 15px;
+}
+.btn_man_mobile{
+				height: 70px;
+}
+
+}
+
+@media (max-width: 396px){
+ .vector_13{
+ 				height: 220px;
+ 				margin: 0 0 0 20px;
+ }
+  
+      }
+
 
 @media (max-width: 375px) {
 
@@ -1929,14 +2256,16 @@ width: 280px;
          margin: -35px 0 0 0;
       }
 
-.img_mobile{
-   display: block;
-   margin: 0 0 0 20px;
-}
+                  .btn_man_mobile {
+                     margin: 5px 15px 0 0px;
+                     font-size: 12px;
+                  }
 
-.img_desk{
-   display: none;
-}
+            .man__car {
+               background-image: url(../IMG/man_car_mb_sh.png), url(../IMG/man_car_mb_p.png);
+               height: 280px;
+               width: 100%;
+            }
 
 .container_map{
    max-width: 375px;
@@ -1961,12 +2290,7 @@ width: 280px;
          display: none;
       }
 
-                  .maps_dsk {
-                     background-image: url(../IMG/map__mb.png);
-                     background-repeat: no-repeat;
-                     background-position: 50%;
-                     margin: 20px 0 0 0;
-                  }
+                  
    
       .Imb__block_mb {
          display: block;
@@ -1980,7 +2304,7 @@ width: 280px;
       }
    
    .car__interier{
-      height: 230px;
+      height: 300px;
    }
    
       .Imb__block_mb img {
@@ -1991,36 +2315,10 @@ width: 280px;
          left: 0;
       }
    
-   
-      .form__dsk {
-         display: none;
-      }
-   
-      .man__car {
-         background-image: url(../IMG/man_car_mb_sh.png), url(../IMG/man_car_mb_p.png);
-         height: 280px;
-         width: 100%;
-      }
 
-      .form__mobile{
-         display: block;
-         margin: 125px 0 0 0;
-      }
-
-      .man__car h1{
-         font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 18.1347px;
-            line-height: 21px;
-            color: #FFFFFF;
-            padding: 20px 0 0 20px;
-            margin: 0 0 0 0;
-            width: 320px;
-      }
 
   .dropdown__btn{
-     width: 184px;
+     width: 230px;
      margin: 0 auto;
   }
 
@@ -2032,17 +2330,23 @@ width: 280px;
      margin: -100px auto;
   }
 
-  .pop-up-button{
-     margin: 130px 0 0 0;
-  }
+
 
   .maps_dsk{
      margin: -255px 0 0 0;
   }
+.pop-up-button{
+				margin: 150px 0 -150px 0;
+}
 
-  .div_ft{
-     margin: 90px 0 0 0;
-  }
+ .div_ft {
+                                                          
+   margin: 150px 0 0 0;
+   
+                                                         }
+.text_block{
+				margin: 10px auto;
+}
 }
 
 @media (max-width: 320px) {}
